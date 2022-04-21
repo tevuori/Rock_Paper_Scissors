@@ -43,7 +43,7 @@ public class Main {
                             TimeUnit.SECONDS.sleep(1);
                             System.out.println("Congratulations! YOU WON!");
                         }
-                        if(Objects.equals(randompick, "Paper")){
+                        if(Objects.equals(randompick, "Rock")){
                             TimeUnit.SECONDS.sleep(1);
                             System.out.println("DRAW!");
                         }
@@ -57,7 +57,7 @@ public class Main {
                             TimeUnit.SECONDS.sleep(1);
                             System.out.println("Congratulations! YOU WON!");
                         }
-                        if(Objects.equals(randompick, "Paper")){
+                        if(Objects.equals(randompick, "Scissors")){
                             TimeUnit.SECONDS.sleep(1);
                             System.out.println("DRAW!");
                         }
