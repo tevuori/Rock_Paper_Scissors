@@ -23,11 +23,11 @@ public class Main {
                     case "Paper":
                         if(Objects.equals(randompick, "Rock")){
                             TimeUnit.SECONDS.sleep(1);
-                            System.out.println("Game Over! Computer picked Rock!");
+                            System.out.println("Congratulations! YOU WON!");
                         }
                         if(Objects.equals(randompick, "Scissors")){
                             TimeUnit.SECONDS.sleep(1);
-                            System.out.println("Congratulations! YOU WON!");
+                            System.out.println("Game Over! Computer picked Scissors!");
                         }
                         if(Objects.equals(randompick, "Paper")){
                             TimeUnit.SECONDS.sleep(1);
@@ -37,11 +37,11 @@ public class Main {
                     case "Rock":
                         if(Objects.equals(randompick, "Scissors")){
                             TimeUnit.SECONDS.sleep(1);
-                            System.out.println("Game Over! Computer picked Scissors!");
+                            System.out.println("Congratulations! YOU WON!");
                         }
                         if(Objects.equals(randompick, "Paper")){
                             TimeUnit.SECONDS.sleep(1);
-                            System.out.println("Congratulations! YOU WON!");
+                            System.out.println("Game Over! Computer picked Paper!");
                         }
                         if(Objects.equals(randompick, "Rock")){
                             TimeUnit.SECONDS.sleep(1);
