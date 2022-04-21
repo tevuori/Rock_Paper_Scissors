@@ -29,6 +29,10 @@ public class Main {
                             TimeUnit.SECONDS.sleep(1);
                             System.out.println("Congratulations! YOU WON!");
                         }
+                        if(Objects.equals(randompick, "Paper")){
+                            TimeUnit.SECONDS.sleep(1);
+                            System.out.println("DRAW!");
+                        }
                         break;
                     case "Rock":
                         if(Objects.equals(randompick, "Scissors")){
@@ -39,6 +43,10 @@ public class Main {
                             TimeUnit.SECONDS.sleep(1);
                             System.out.println("Congratulations! YOU WON!");
                         }
+                        if(Objects.equals(randompick, "Paper")){
+                            TimeUnit.SECONDS.sleep(1);
+                            System.out.println("DRAW!");
+                        }
                         break;
                     case "Scissors":
                         if(Objects.equals(randompick, "Rock")){
@@ -48,6 +56,10 @@ public class Main {
                         if(Objects.equals(randompick, "Paper")){
                             TimeUnit.SECONDS.sleep(1);
                             System.out.println("Congratulations! YOU WON!");
+                        }
+                        if(Objects.equals(randompick, "Paper")){
+                            TimeUnit.SECONDS.sleep(1);
+                            System.out.println("DRAW!");
                         }
                         break;
                 }
